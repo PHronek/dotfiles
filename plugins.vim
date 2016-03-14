@@ -159,6 +159,9 @@ call unite#filters#matcher_default#use(['matcher_fuzzy'])
 
 " vim-rspec
 map <Leader>r :call RunNearestSpec()<CR>
+map <Leader>l :call RunLastSpec()<CR>
+map <Leader>t :call RunCurrentSpecFile()<CR>
+map <Leader>a :call RunAllSpecs()<CR>
 
 " vim-airline
 let g:airline_powerline_fonts=1
